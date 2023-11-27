@@ -26,12 +26,15 @@ export const BoardTitle = styled.h2`
 export const TitleTop = styled.span`
   display: block;
   letter-spacing: ${props => props.theme.spacing(1.6)};
+  margin-right: ${props => props.theme.spacing(-1.6)};
 `;
 
 export const TitleBottom = styled.span`
+  display: block;
   font-size: ${props => props.theme.fontSizes.small};
   font-weight: 300;
   letter-spacing: ${props => props.theme.spacing(0.4)};
+  margin-right: ${props => props.theme.spacing(-0.4)};
 `;
 
 export const LeaderBoardProfiles = styled.ul`
